@@ -1,6 +1,5 @@
 import threading
 import socket
-import keyboard
 import sys
 
 host = '127.0.0.1'
