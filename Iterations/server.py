@@ -109,8 +109,5 @@ def stop_server():
     keyboard.unhook_all()
     sys.exit(0)  # Exit the program
 
-# Register the keyboard shortcut (e.g., Ctrl + Shift + S)
-keyboard.add_hotkey('shift+s', stop_server)
-
 print("SERVER IS ACTIVE...")
 receive()
